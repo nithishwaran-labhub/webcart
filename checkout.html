@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebCart - Checkout</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>WebCart</h2>
+</header>
+
+<div class="checkout-box">
+
+  <h2>Payment Details</h2>
+
+  <div id="order-summary">
+      <h3>Your Order</h3>
+      <p id="total-items"></p>
+      <p id="total-price"></p>
+  </div>
+
+  <h3>Enter Your Details</h3>
+
+  <input type="text" placeholder="Full Name" id="name">
+  <input type="text" placeholder="Address" id="address">
+  <input type="text" placeholder="Phone Number" id="phone">
+
+  <h3>Payment Method</h3>
+  <select id="payment">
+    <option>Cash on Delivery</option>
+    <option>UPI</option>
+    <option>Credit Card</option>
+    <option>Debit Card</option>
+  </select>
+
+  <button onclick="placeOrder()">Place Order</button>
+
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
