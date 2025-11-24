@@ -8,3 +8,31 @@ header {background:#222;color:white;padding:15px;display:flex;justify-content:sp
 img {width:100%;border-radius:8px;}
 button {padding:10px 15px;background:#ff9800;border:none;border-radius:6px;cursor:pointer;margin-top:10px;}
 #cart-items, #wishlist-items {padding:20px;}
+.checkout-box {
+  width: 400px;
+  background: #fff;
+  padding: 25px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.checkout-box input, .checkout-box select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.checkout-box button {
+  width: 100%;
+  padding: 12px;
+  background: #ffa500;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
